@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -30,7 +30,7 @@ function verificarChute() {
 mensagemInicioal();
 function mensagemInicioal() {
     exibeTextoNaTela('h1', 'Game of secret number');
-    exibeTextoNaTela('p', 'Enter a number between 1 and 100');
+    exibeTextoNaTela('p', 'Enter a number between 1 and 50');
 }
 
 function gerarNumeroAleatorio() {
